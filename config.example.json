@@ -1,20 +1,20 @@
 {
+  "socialpilot_login_url": "https://app.socialpilot.co/login",
+  "socialpilot_email": "",
+  "socialpilot_password": "",
+  "source_page_url": "https://www.facebook.com/Kolay Yemek Tarifleri-441822546165324/",
   "source_page_login_id": 2553012,
-  "target_login_ids": [
-    2553012,
-    2553009,
-    2553014,
-    2553008,
-    2553010,
-    2553015,
-    2553016,
-    2553019,
-    2553017,
-    2553013,
-    2553021,
-    2553011,
-    2553018,
-    2553020
+  "target_pages": [
+    "Kolay Yemek Tarifleri",
+    "Büşra Nergiz",
+    "Eser'in Tatlı Dünyası",
+    "Eser’in Tatlı Dünyası",
+    "Kadınlara Özel",
+    "Marifetli Pasta Poğaça Tatlı Tarifleri",
+    "Nurselin Mutfağı",
+    "Videolu Yemek Tarifleri",
+    "Yemek Tarifleri",
+    "Yemek Ve Pasta Tarifleri"
   ],
   "domain_filter": "secmeyemektarifleri.com",
   "start_date": "2025-01-01",
@@ -22,6 +22,8 @@
   "daily_end_time": "02:00",
   "slot_interval_minutes": 20,
   "page_offset_minutes": 1,
-  "timezone": "Europe/Istanbul",
-  "batch_posts_per_day": 56
+  "batch_posts_per_day": 56,
+  "title_rewrite": true,
+  "skip_on_error": true,
+  "headless": true
 }
