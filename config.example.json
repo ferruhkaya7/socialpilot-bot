@@ -23,6 +23,5 @@
   "slot_interval_minutes": 20,
   "page_offset_minutes": 1,
   "timezone": "Europe/Istanbul",
-  "batch_posts_per_day": 56,
-  "mode": "socialpilot_fallback_then_facebook_graph"
+  "batch_posts_per_day": 56
 }
